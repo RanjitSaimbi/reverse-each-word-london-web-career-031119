@@ -8,3 +8,6 @@ def reverse_each_word(string)
   return array_of_reversed_string.join(' ')
 end 
 
+def uses_collect
+  
+end 
