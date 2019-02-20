@@ -10,7 +10,7 @@ end
 
 def uses_collect
   array_of_string = string.split(" ")
-  array_of_string.each do |word|
+  array_of_string.collect do |word|
     word.reverse 
   end 
 end 
